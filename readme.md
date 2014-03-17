@@ -19,14 +19,13 @@
     f('technicolor dreamcoat')
     # 3 'c', 1 ' '
     ```
+My solution is in JavaScript. I used underscore, so I am assuming underscore is a core lib of JavaScript ; )
 
-    My solution is in JavaScript. I used underscore, so I am assuming underscore is a core lib of JavaScript ; )
+takes an optional string
 
-    takes an optional string
+    node app.js 1 'string string string string thing'
 
-        node app.js 1 'string string string string thing'
-
-    `file: ./minmax.js`
+    file: minmax.js
 
 **2. Using the following snippet of HTML as a starting point, create a simple page
     with JavaScript that allows a user to add another record to the table. The table
@@ -59,7 +58,7 @@
 
         node app.js 2 8080
 
-    `files: person-status.js, data.json, index.html`
+    files: person-status.js, data.json, index.html
 
 **3. We have an application that we want to improve by allowing users to create
     events. Users should be able to create an event, invite people to it, and
@@ -70,28 +69,15 @@
 
     ---
 
-    I have gone outside the boundaries on this one and provided some documentation
-    about my current side project at starbound.today instead of for a theoretial
-    events page. Starbound.today is a web application that uses a variety of APIs.
-    I have documented how those API's interact with the local MongoDB Objects of
-    the application. I also explore some other data flows planned for application.
+I have gone outside the boundaries on this one and provided some documentation about my current side project at starbound.today instead of for a theoretial events page. Starbound.today is a web application that uses a variety of APIs. I have documented how those API's interact with the local MongoDB Objects of the application. I also explore some other data flows planned for application. 
 
-    It's a Keynote, exported to web and lauchable with npm's http-server.
+It's a Keynote, exported to web and lauchable with npm's http-server.
 
-    Starbound.today is one of my fisrt major experiences with NoSQl. I am familiar with
-    relational databases and have gained a new appreciation for SQL. Relational
-    databases allow some actions to be taken at a table level and some important
-    application logic is moved into the quieries. In turn I think templates and
-    route logic can can be simpler, or higher levels of complexity can be achieved.
-    I appreciate the flexibilty offered by NoSQL and I think that its has made me
-    consider new approaches to organizing data and applications. NoSQL makes me
-    appreciate the benefits and flexibity of SQL. Paging and joins are very
-    powerful tools, and I think it's good to move logic further away from
-    templates and the frontend.
+Starbound.today is one of my fisrt major experiences with NoSQl. I am familiar with relational databases and have gained a new appreciation for SQL. Relational databases allow some actions to be taken at a table level and some important application logic is moved into the quieries. In turn I think templates and route logic can can be simpler, or higher levels of complexity can be achieved. I appreciate the flexibilty offered by NoSQL and I think that its has made me consider new approaches to organizing data and applications. NoSQL makes me appreciate the benefits and flexibity of SQL. Paging and joins are very powerful tools, and I think it's good to move logic further away from templates and the frontend. 
 
-    takes an optional port number
+takes an optional port number
 
-        node app.js 3 8080
+    node app.js 3 8080
 
-    `directory: starbound_today_erm/`
+    directory: starbound_today_erm/
 
