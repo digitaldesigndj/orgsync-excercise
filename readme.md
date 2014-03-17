@@ -1,10 +1,10 @@
-# Taylor's OrgSync Dev Excercise
+# Taylor's OrgSync Dev Exercise
 
     You'll need NodeJS and NPM
 
     ```bash
-    git clone 
-    cd orgsync-dev-excercise
+    git clone https://github.com/digitaldesigndj/orgsync-exercise
+    cd orgsync-exercise
     npm install
     npm start
     ```
