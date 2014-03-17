@@ -1,0 +1,12 @@
+{
+  "name": "taylor-orgsync-dev-excercise",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "http-server": "*"
+  }
+}
