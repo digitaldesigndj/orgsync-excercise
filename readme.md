@@ -1,24 +1,22 @@
 # Taylor's OrgSync Dev Exercise
 
-    You'll need NodeJS and NPM
+You'll need NodeJS and NPM
 
-    ```bash
-    git clone https://github.com/digitaldesigndj/orgsync-exercise
-    cd orgsync-exercise
-    npm install
-    npm start
-    ```
+```bash
+git clone https://github.com/digitaldesigndj/orgsync-exercise
+cd orgsync-exercise
+npm install
+npm start
+```
 
-**1. Write a function that takes a string and outputs the most and least common
-    characters along with their total counts. In the event of a tie, return the
-    character with the lowest code point.** For example:
+**1. Write a function that takes a string and outputs the most and least common characters along with their total counts. In the event of a tie, return the character with the lowest code point.** For example:
 
-    ```ruby
-    f('supercalifragilisticexpialidocious')
-    # 7 'i', 1 'd'
-    f('technicolor dreamcoat')
-    # 3 'c', 1 ' '
-    ```
+```ruby
+f('supercalifragilisticexpialidocious')
+# 7 'i', 1 'd'
+f('technicolor dreamcoat')
+# 3 'c', 1 ' '
+```
 My solution is in JavaScript. I used underscore, so I am assuming underscore is a core lib of JavaScript ; )
 
 takes an optional string
@@ -27,45 +25,38 @@ takes an optional string
 
     file: minmax.js
 
-**2. Using the following snippet of HTML as a starting point, create a simple page
-    with JavaScript that allows a user to add another record to the table. The table
-    should be sorted by name and the new record should be posted to `/members`.**
+**2. Using the following snippet of HTML as a starting point, create a simple page with JavaScript that allows a user to add another record to the table. The table should be sorted by name and the new record should be posted to `/members`.**
 
-    ```html
-    <input name="name" id="name" placeholder="name"/>
-    <input name="status" id="status" placeholder="status" />
-    <button>Add Row</button>
-    <table>
-        <thead> <tr>
-            <th>Name</th> <th>Status</th>
-        </tr> </thead>
-        <tbody> <tr>
-            <td>Appleseed, Johnny</td> <td>Approved</td>
-        </tr> </tbody>
-    </table>
-    ```
+```html
+<input name="name" id="name" placeholder="name"/>
+<input name="status" id="status" placeholder="status" />
+<button>Add Row</button>
+<table>
+    <thead> <tr>
+        <th>Name</th> <th>Status</th>
+    </tr> </thead>
+    <tbody> <tr>
+        <td>Appleseed, Johnny</td> <td>Approved</td>
+    </tr> </tbody>
+</table>
+```
 
-    ### Libs Used
+### Libs Used
 
-    - NodeJS, NPM 
-    - Server Side UnderscoreJS
-    - Client Side jQuery
-    - Saves records to data.json
+- NodeJS, NPM 
+- Server Side UnderscoreJS
+- Client Side jQuery
+- Saves records to data.json
 
-    This example is as simple as possible to demonstrate core JavaScript and HTTP/IP proficency. Normally I would use a framework like Express or DocPad, API libs, utility libs like Request, and various Templating Engines and CSS Preprocessors.
+This example is as simple as possible to demonstrate core JavaScript and HTTP/IP proficency. Normally I would use a framework like Express or DocPad, API libs, utility libs like Request, and various Templating Engines and CSS Preprocessors.
 
     node app.js 2
 
     files: person-status.js, data.json, index.html
 
-**3. We have an application that we want to improve by allowing users to create
-    events. Users should be able to create an event, invite people to it, and
-    receive RSVPs from them. Provide an [entity-relationship model][1] showing
-    the database tables and fields necessary to implement this feature. Then
-    describe how your model handles recurring events, including the benefits
-    and trade-offs of your approach.**
+**3. We have an application that we want to improve by allowing users to create events. Users should be able to create an event, invite people to it, and receive RSVPs from them. Provide an [entity-relationship model][1] showing the database tables and fields necessary to implement this feature. Then describe how your model handles recurring events, including the benefits and trade-offs of your approach.**
 
-    ---
+---
 
 I have gone outside the boundaries on this one and provided some documentation about my current side project at starbound.today instead of for a theoretial events page. Starbound.today is a web application that uses a variety of APIs. I have documented how those API's interact with the local MongoDB Objects of the application. I also explore some other data flows planned for application. 
 
