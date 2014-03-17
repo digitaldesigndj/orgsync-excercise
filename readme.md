@@ -54,9 +54,7 @@ takes an optional string
 
     This example is as simple as possible to demonstrate core JavaScript and HTTP/IP proficency. Normally I would use a framework like Express or DocPad, API libs, utility libs like Request, and various Templating Engines and CSS Preprocessors.
 
-    takes an optional port number
-
-        node app.js 2 8080
+    node app.js 2
 
     files: person-status.js, data.json, index.html
 
@@ -73,11 +71,9 @@ I have gone outside the boundaries on this one and provided some documentation a
 
 It's a Keynote, exported to web and lauchable with npm's http-server.
 
-Starbound.today is one of my fisrt major experiences with NoSQl. I am familiar with relational databases and have gained a new appreciation for SQL. Relational databases allow some actions to be taken at a table level and some important application logic is moved into the quieries. In turn I think templates and route logic can can be simpler, or higher levels of complexity can be achieved. I appreciate the flexibilty offered by NoSQL and I think that its has made me consider new approaches to organizing data and applications. NoSQL makes me appreciate the benefits and flexibity of SQL. Paging and joins are very powerful tools, and I think it's good to move logic further away from templates and the frontend. 
+Starbound.today is one of my fisrt major experiences with NoSQl. I am familiar with relational databases and have gained a new appreciation for SQL. Relational databases allow some actions to be taken at a table level and some important application logic is moved into the quieries. In turn I think templates and route logic can can be simpler, or higher levels of complexity can be achieved. I appreciate the flexibilty offered by NoSQL and I think that its has made me consider new approaches to organizing data and applications. NoSQL makes me appreciate the benefits and flexibity of SQL. Paging and joins are very powerful tools, and I think it's good to move logic further away from templates and the frontend.
 
-takes an optional port number
-
-    node app.js 3 8080
+    node app.js 3
 
     directory: starbound_today_erm/
 
